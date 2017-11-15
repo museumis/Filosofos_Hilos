@@ -16,7 +16,7 @@ public class Token {
 			}
 		}
 		
-		System.out.println(nombre +" est· comiento ");
+		System.out.println(nombre +" est√° comiento ");
 		turno =(id+1)%5;
 		notifyAll();
 		/*
@@ -24,7 +24,6 @@ public class Token {
 			turno=0;
 			notifyAll();
 		}else {
-			notifyAll();
 			turno++;
 		}
 		*/
